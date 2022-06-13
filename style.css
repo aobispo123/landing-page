@@ -13,7 +13,7 @@ body{
 
 .left{
     font-size: 24px;
-    color: #F9FAF8;
+    
     padding: 0 5em;
    
 }
@@ -140,8 +140,47 @@ a{
 }
 /* End Quote CSS */
 
+/* CTA CSS*/
+.cta{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 200px; /* makes the box smaller */
+    border-radius: 12px;
+    padding: 10px 80px;
+    align-items: center;
+    
+}
+.cta-text{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0px 50px;
+    flex-direction: column;
+    color: white;
+}
+
+.cta-text p{
+    margin: 0px 30px 30px 0px;
+}
+
+
+.cta-button button{
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 12px;
+    padding: 5px 25px;
+}
+
+/* End CTA CSS*/
+
+.footer{
+    text-align: center;
+    padding: 16px;
+}
 /* Footer - Extra Stuff */
 .header, .footer{
     background-color: #1F2937;
+    color: #F9FAF8;
 }
 /* End Footer - Extra Stuff */
